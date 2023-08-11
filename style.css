@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Mr+Dafoe&family=Noto+Sans+Chorasmian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@keyframes animatedBackground {
+  from {
+    background-position: 40% 20%;
+  }
+  to {
+    background-position: 0% 0%;
+  }
+}
+.my-header {
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 4rem;
+  }
+  .my-atag{
+    font-family: 'Satisfy', cursive;
+  }
+  .text-black{
+    color: violet;
+  }
+
+  #section1{
+  padding-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-repeat: repeat-x;
+  background-size: initial;
+  color: #dddddd;
+  text-shadow: 0.1em 0.1em 0.2em #000000;
+  animation: animatedBackground 25s linear infinite;
+  color: #cccccc;
+  text-shadow: 1px 1px 1px #000000;
+  }
+
+  .image-clip {
+    clip-path: polygon(0 15%, 100% 0, 95% 100%, 0% 100%);
+    overflow: hidden;
+  }
+  
